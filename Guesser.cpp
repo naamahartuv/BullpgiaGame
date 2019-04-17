@@ -7,6 +7,6 @@ using namespace bullpgia;
 string learn(string s){
 
 }
-string startNewGame(int length){
+string startNewGame(uint length){
 
 }

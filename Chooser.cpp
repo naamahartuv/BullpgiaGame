@@ -2,6 +2,3 @@
 using std::string;
 
 
-string bullpgia::Chooser::choose(uint length){
-
-}

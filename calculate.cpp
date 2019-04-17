@@ -1,7 +1,9 @@
 #include "calculate.hpp"
 using std::string;
  
-
+namespace bullpgia{
 string bullpgia::calculateBullAndPgia(string choice,string guess){
-    return NULL;
+    string st;
+    return st;
+    }
 }

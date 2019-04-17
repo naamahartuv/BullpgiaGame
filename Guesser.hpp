@@ -10,7 +10,7 @@ namespace bullpgia{
             int length;
         public:
             virtual string guess()=0;
-            virtual string learn(string s);
-            virtual string startNewGame(int length);
+            virtual void learn(string s){}
+            virtual void startNewGame(uint length){}
     };
 }
