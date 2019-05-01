@@ -82,7 +82,7 @@ int main() {
 
 		.CHECK_EQUAL(play(c9999, g9999, 5, 100), 0)      // chooser loses technically by choosing an illegal number (too short).
 		.CHECK_EQUAL(play(c9999, g12345, 5, 100), 0)     // chooser loses technically by choosing an illegal number (too short).
-		.CHECK_EQUAL(play(c12345, g9999, 5, 100), 0)     // guesser loses technically by making an illegal guess (too short).
+		.CHECK_EQUAL(play(c12345, g9999, 5, 100), 101)     // guesser loses technically by making an illegal guess (too short).
 		.CHECK_EQUAL(play(c12345, g98765, 4, 100), 0)    // chooser loses technically by choosing an illegal number (too long).
 		.CHECK_EQUAL(play(c1234, g2610, 4, 90), 91)    	 // guesser loses by running out of turns
 		.CHECK_EQUAL(play(c0406, g9999, 4, 10), 11)    	 // guesser loses by running out of turns
