@@ -5,6 +5,7 @@ using std::string;
  
 string bullpgia::calculateBullAndPgia(string choice,string guess)
 {
+    if(choice.size()== guess.size()){
     
     int bullCounter=0, pgiaCounter=0;
     int length= choice.size();
@@ -47,4 +48,9 @@ string bullpgia::calculateBullAndPgia(string choice,string guess)
     
 
     return  "" + to_string(bullCounter) +',' + to_string(pgiaCounter);
+    }
+    else{
+        throw runtime_error ("NOT THE SAME SIZE");
+    }
+
 }
